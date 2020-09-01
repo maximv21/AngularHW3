@@ -1,4 +1,4 @@
-Intener shop - home work 3!
+Internet shop - home work 3!
 
 Internet shop is an application based on the https://book-ye.com.ua/ - books internet shop.
 
