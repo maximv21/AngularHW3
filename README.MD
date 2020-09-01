@@ -17,4 +17,5 @@ Downloading and installing:
     - Install all the dependencies 
         $ npm install from console. 
     - Run ng serve --open for a dev server. It will navigate authomatically to http://localhost:4200/. 
+    - Server will update the page authomatically due to the changes performed
 
