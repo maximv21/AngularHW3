@@ -1,0 +1,235 @@
+
+<html>
+<head>
+  		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>Movies Shop</title>
+	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+
+</head>
+
+<body>
+	<header>
+    
+        <nav id="navbar">
+			<div id="nav-wrap" class="wrappers">
+            <ul>
+                <li><a href="">Contacts</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Projects</a></li>
+				<li><a href="">Actions</a></li>
+				<li><a href="">Events calendar</a></li>
+				<li><a href="">Blogs</a></li>
+				<li><a href="">Loyality program</a></li>
+				<li><a href="">Shipping</a></li>
+            </ul>
+			</div>
+		</nav>
+		
+		<div id="middle-head">
+			<div id="mid-wrap"class="wrappers">
+			<img src="assets/logo.png"alt="Logo"id="logo">
+				
+					<div id="phone-numb">Internet-shop 
+						<div>000-00-00-00</div>
+						<div>000-00-00-01</div>
+					</div>
+				
+				
+		<!-- Burger button hiding on big screens-->
+			<div id="burger"class="but">
+				<i class="fa fa-bars"></i>
+      		</div>
+			<img src="assets/disc.png"alt="Discount"id="discount">
+			</div></div>
+		
+		
+		
+	</header>
+	<div id="personal"> 
+		<div id="bot-wrap"class="wrappers">
+			<div id="drop">
+				<div class="drop-menu">
+				<button class="dropbtn">Movies catalogue</button>
+					<div class="dropdown-content">
+					<a href="#">Action movies</a>
+					<a href="#">Comedy movies</a>
+					<a href="#">Fantastic movies</a>
+					<a href="#">Historical movies</a>
+					<a href="#">Best movies</a>
+					<a href="#">New movies</a>
+					</div>
+				</div>
+			</div>
+			
+		
+			<form  action="action_page.php">
+				<input type="text"name="search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+			
+			<div id="favor-container">	
+        
+			<!-- Angular component with list of favorites movies -->	
+           <app-favorite></app-favorite>
+            
+					
+					<!-- favorites buttons -->
+					<button class="round"><i class="fa fa-shopping-basket"></i></button>
+					
+						<div id="square"><button class="round"><i class="fa fa-user"></i></button><span>Enter or register</span>
+					</div>
+			</div>
+			</div>
+		</div>
+		
+		<div id="breadcrumb-wrap">
+			<ul class=" wrappers breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">English</a></li>
+				<li><a href="#">Best 20-th century</a></li>
+				
+			</ul>
+		</div>
+		<main>
+			
+			<div id="wrapper-content"class="wrappers">	
+				
+				<div id="filter">
+					<h2 id="filt-head">Choose parameters</h2>
+					<div class="filt-item"id="themathics">
+						<h3>Thematics</h3>
+						<input type="checkbox" id="lang" name="lang">
+						
+						<label for="lang">Antology</label>
+					
+					</div>
+					<div class="filt-item"id="price">
+						<input type="checkbox" id="act-price" name="price">
+						<label for="act-price">Special price</label>
+						<a href=""><i class="fa fa-arrow-down"></i>See all</a>
+					
+					</div>
+					
+					<div class="filt-item"id="author">
+						<h3>Author</h3>
+						<a href=""><i class="fa fa-arrow-down"></i>Choose</a>
+					
+					</div>
+					
+					
+					<div class="filt-item"id="editor">
+						<h3>Director</h3>
+						<a href=""><i class="fa fa-arrow-down"></i>Choose</a>
+						
+					</div>
+					
+					<div class="filt-item"id="language">
+						<h3>Language</h3>
+						<input type="checkbox" id="lang" name="lang">
+						<label for="lang">Ukrainian</label>
+					
+					</div>
+					
+					
+					<div class="filt-item"id="cover">
+						<h3>Quality</h3>
+						<label for="firm"><input type="checkbox" id="firm" name="firm">
+						4K</label>
+						<label for="soft"><input type="checkbox" id="soft" name="soft">
+						HD</label>
+					
+					</div>
+					
+					
+				</div>
+				<!-- Product section -->
+				<div id="product-wrap">
+				<!-- Pagination and sorting -->
+				<div class="sort">
+					<div class="sort-wrap">
+						<select class="dropdown"name="drop">
+							<option value=""disabled selected>Sort by</option>
+							<option value="high">Higher price</option>
+							<option value="low">Lower price</option>
+							<option value="discount">Discount %</option>
+						</select>
+						<div class="filt-small"><i class="fa fa-filter"></i></div>
+					</div>
+					<div  class="pagination"><span>Pages</span>
+						<div class="page-wrap">
+						<a href=""class="pag-item"><</a>
+						<a href="" class="pag-item">1</a>
+						<a href="" class="pag-item">2</a>
+						<a href="" class="pag-item">3</a>
+						<a href="" class="pag-item">></a>
+						</div>
+					</div>
+				</div>
+					<!-- Angular component - catalogue-->
+					<movie-list></movie-list>
+				
+					
+					
+				
+				<div class="sort">
+					<div class="sort-wrap"><select class="dropdown"name="drop">
+						<option value=""disabled selected>Sort by</option>
+						<option value="high">Higher price</option>
+						<option value="low">Lower price</option>
+						<option value="discount">Discount %</option>
+					</select>
+					<div class="filt-small"><i class="fa fa-filter"></i></div></div>
+					<div  class="pagination"><span>Pages</span>
+						<div class="page-wrap">
+						<a href=""class="pag-item"><</a>
+						<a href="" class="pag-item">1</a>
+						<a href="" class="pag-item">2</a>
+						<a href="" class="pag-item">3</a>
+						<a href="" class="pag-item">></a>
+						</div>
+					</div>
+				</div>
+				<!-- Hidden text -->
+				<div id="hidden-content">
+			<input class="open" id="top-box" type="checkbox" >
+			<div class="top-panel">
+				<div class="message">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+				</div>
+			</div> 
+				<label class="btn" for="top-box"><i class="fa fa-arrow-down"></i></label>   
+			</div>
+				</div>
+			</div>
+            
+        </main>
+	<footer>
+	<div id="foot-wrap"class="wrappers">
+		<div id="foot-link">
+			<a href="">About</a>
+			<a href="">Terms of usage</a>
+			<a href="">Additional info</a>
+		</div>
+		<div id="services">
+			<i class="fa fa-youtube"></i>
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+		</div>
+	</div>
+	</footer>
+
+</body>
+
+
+
+
+</html>

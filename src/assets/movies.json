@@ -1,0 +1,45 @@
+[
+{
+	"Id": 1,
+	"name": "Terminator2",
+	"description": "A terminator is set on a mission to kill Sarah's son, John Connor. However, another cyborg, who was once after Sarah's life, has now been assigned to protect him.",
+	"price": 10,
+	"image": "./assets/Terminator2.jpg" 
+},
+{
+	"Id": 12,
+	"name": "Rocky",
+	"description": "Rocky Balboa, a small-time boxer, gets a chance to fight heavyweight champion Apollo Creed. In a bid to earn respect and glory, Rocky jumps into the ring, unaware of the tough task ahead of him.",
+  "price": 15,
+  "image": "./assets/Rocky.jpeg" 
+},
+{
+	"Id": 33,
+	"name": "Back to the future",
+	"description": "Marty travels back in time using an eccentric scientist's time machine. However, he must make his high-school-aged parents fall in love in order to return to the present.",
+  "price": 12,
+  "image": "./assets/Back.jpg" 
+},
+{
+	"Id": 4,
+	"name": "Captain Phillips",
+	"description": "Somali pirates attack Maersk Alabama, a container ship, while it is on its course to Kenya. Richard Phillips, the captain of the ship, uses his wits to negotiate with them to save his crew.",
+  "price": 11,
+  "image": "./assets/Phillips.jpg" 
+},
+{
+	"Id": 511,
+	"name": "Braveheart",
+	"description": "William Wallace, a Scottish rebel, along with his clan, sets out to battle King Edward I of England, who killed his bride a day after their marriage.",
+  "price": 10,
+  "image": "./assets/Brave.jpg" 
+},
+{
+	"Id": 19,
+	"name": "I, Robot",
+	"description": "Del Spooner investigates the murder of Dr Alfred, who works at US Robotics, with the help of a robopsychologist. He tries to deduce if a robot has violated the laws of robotics and killed him.",
+  "price": 10,
+  "image": "./assets/Robot.jpg" 
+}
+
+]

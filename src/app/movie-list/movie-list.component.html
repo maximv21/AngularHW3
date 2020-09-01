@@ -1,0 +1,16 @@
+
+
+		<div id="product">
+					<div class="movie"*ngFor="let movie of movies">
+						<a href="#">
+							<img [src]="movie.image">
+							<div>{{movie.name}}</div></a>
+						
+						<div class="product-info">
+							<div class="price">{{movie.price}}
+							</div><button (click)="toggle(movie)"class="round">{{getStat(movie)}}</button>
+							
+							    
+						</div>
+					</div>
+          </div>

@@ -1,0 +1,165 @@
+
+
+.filt-small {
+		
+		
+		width: 140px;
+		height: 35px;
+		margin-left: 1em;
+		background-color: white;
+			}
+@media screen and (max-width: 1800px) {	
+	
+.movie {
+	width: 202px; 
+	height: 430px;
+	a{ width: 80%;
+			}
+}
+
+.wrappers {
+	width: 68rem;	
+	}
+#discount {
+	margin-left: 7em;
+	width: 35%; /*28rem*/
+	}
+		
+#phone-numb{
+		max-width: 10rem;
+		margin-left: 0;}
+#foot-link {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	}
+#foot-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+		}
+	}
+@media screen and (max-width: 1200px) {
+
+.wrappers {
+	width: 58rem;	
+		}
+form {
+	width: 20.5em;
+	}
+#filter {
+	width: 16rem;
+	}
+.movie {
+	width: 234px; 
+		height: 400px;
+		}		
+	}
+
+	
+@media screen and (max-width: 991px) {
+.wrappers {
+	width: 45rem;	
+	}
+form {
+	width: 14em;
+	margin-right: 0.8em;
+	
+	}
+.movie {
+	width: 360px; 
+	height: 630px;
+	}
+#filter {
+	display: none;
+	}	
+#drop {width: 8.5em;
+   	}
+
+#favor-container {
+margin-left: 2em;
+}
+#discount {
+	margin-left: 5em;
+	height: 10%;
+	width: 40%; 	
+	}
+#mid-wrap {
+	align-items: flex-start;}
+#foot-wrap {
+	flex-direction: column;
+	justify-content: space-around;
+	}
+#foot-link {
+	width: 100%;}
+}	
+@media screen and (max-width: 768px) {	
+ 
+.wrappers {
+	max-width: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	}	
+
+#phone-numb {
+	max-width: 30%;
+	}
+form {
+	display: none;
+	}
+#navbar {
+	display: none;
+	}
+.movie {
+	width: 50%;
+	height: 80vw;		
+		}
+#logo {
+	height: 10%;
+	width: 10%;
+	}
+#discount {
+	height: 10%;
+	width: 80%; 
+	margin-left: auto;
+	margin-right: auto;
+	
+	}
+#burger {
+		margin-left: 10%;
+		}
+#mid-wrap {
+		flex-wrap: wrap;}
+#burger { 
+		display: block;}
+.sort {		
+		flex-direction: column;
+		height: 8rem;
+		}
+.filt-small {
+	display: block;}
+	}
+@media screen and (max-width: 480px) {
+#square{ 
+	width: 3em;
+	}
+#square	span {
+	display: none;
+	}
+.sort {
+	flex-direction: column;
+	justify-content: space-between;
+	}
+.pagination {
+	flex-direction: column;
+	align-items: center;}
+.sort-wrap {
+	flex-direction: column;
+	align-items: center;}
+.filt-small {
+    margin-left: 0
+	}
+	
+}

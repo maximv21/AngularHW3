@@ -1,0 +1,24 @@
+
+<!-- number over the favorite button -->
+<button class="round "id="fav-numb"(click)="visib()"><i class="fa fa-heart"></i>
+	<span id="favor-logo" *ngIf="items">{{items.length}}</span>
+</button>
+
+
+
+<!-- open list of favorites -->
+<div id="favor-list" [class.visible]="visible">
+  <button class="close"(click)="visib()"><i class="fa fa-times"></i></button>
+	<h2>Your favorite list</h2>
+  
+	<div class="list-item"[class.visble]="visible" *ngFor="let item of items">
+		<div>{{item.name}}</div>
+		<button class="list-but"id="delete"(click)="deleteItem(item.Id)">Delete item</button>   
+ 
+	</div>
+
+	<div id="clear"class="list-item"*ngIf="items">{{getTotal()}}$			
+	<button class="list-but"(click)="clearFav()">Clear Total</button></div>
+
+
+</div>
